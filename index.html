@@ -17,52 +17,89 @@
 <body>
     <div class="container">
         <header>
-            <div class="navbar d-flex navbar-expand-sm navegacao">
+            <div class="navbar d-flex navbar-expand-sm fundo-azul">
                 <img src="/img/S_I_logo.png" class="navbar-brand img-fluid" width="100px"></img>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="menuNav">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-link link texto-nav">Quem Somos</a>
-                        <a href="#" class="nav-link link texto-nav">Produtos</a>
-                        <a href="#" class="nav-link link texto-nav">Serviços</a>
-                        <a href="#" class="nav-link link texto-nav">Contato</a>
+                        <a href="#" class="nav-link link texto-branco">Quem Somos</a>
+                        <a href="/pages/produtos.html" class="nav-link link texto-branco">Produtos</a>
+                        <a href="#" class="nav-link link texto-branco">Serviços</a>
+                        <a href="#" class="nav-link link texto-branco">Contato</a>
                     </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="carousel slide" data-bs-ride="carousel" id="ads">
-                <div class="carousel-inner">
-                    <div class="carousel-indicators"><button class="active" data-bs-target="#ads"
-                            data-bs-slide-to="0"></button><button class="" data-bs-target="#ads"
-                            data-bs-slide-to="1"></button><button class="" data-bs-target="#ads"
-                            data-bs-slide-to="2"></button></div>
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h5>Dosador</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci harum debitis
-                                repudiandae saepe temporibus, necessitatibus culpa id odio itaque ducimus, numquam
-                                deserunt odit voluptas facere sit qui amet. Asperiores, suscipit!</p>
+            <div class="quem-somos">
+                <h3>Quem Somos</h3>
+                <p class="">A S&I é uma empresa especializada em automação que fornece soluções
+                    personalizadas para empresas de todos os tamanhos. Estamos empenhados em ajudar nossos clientes a
+                    aumentar a eficiência operacional, reduzir custos e melhorar a produtividade através da integração
+                    de tecnologia avançada. Com anos de experiência no setor, nossa equipe altamente qualificada
+                    trabalha em estreita colaboração com nossos clientes para entender suas necessidades específicas e
+                    fornecer soluções sob medida para atender a essas necessidades. Com um compromisso com a excelência
+                    em tudo o que fazemos, estamos ansiosos para ajudar sua empresa a alcançar todo o seu potencial
+                    através da automação.</p>
+            </div>
+            <div class="produtos">
+                <h3>Produtos</h3>
+                <div class="carousel slide" data-bs-ride="carousel" id="ads">
+                    <div class="carousel-inner">
+                        <div class="carousel-indicators"><button class="active" data-bs-target="#ads"
+                                data-bs-slide-to="0"></button><button class="" data-bs-target="#ads"
+                                data-bs-slide-to="1"></button><button class="" data-bs-target="#ads"
+                                data-bs-slide-to="2"></button></div>
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h5>Dosador</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci harum debitis
+                                    repudiandae saepe temporibus, necessitatibus culpa id odio itaque ducimus, numquam
+                                    deserunt odit voluptas facere sit qui amet. Asperiores, suscipit!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/1280/420?random=3" alt="" class="d-block w-100">
                         </div>
                     </div>
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block w-100">
+                    <div>
+                        <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev"><span
+                                class="carousel-control-prev-icon"></span></button>
+                        <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next"><span
+                                class="carousel-control-next-icon"></span></button>
                     </div>
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/1280/420?random=3" alt="" class="d-block w-100">
-                    </div>
-                </div>
-                <div>
-                    <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev"><span
-                            class="carousel-control-prev-icon"></span></button>
-                    <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next"><span
-                            class="carousel-control-next-icon"></span></button>
                 </div>
             </div>
         </main>
+        <footer class="fundo-azul">
+            <div class="row text-center">
+                <div class="col-6">
+                    <p class="texto-branco">&copy 2023 S&I Soluções integradas LTDA, Todos os direitos reservados</p>
+                </div>
+                <div class="row col-6">
+                    <div class="col-12 text-start">
+                        <p class="texto-branco">Assine nossa newsletter e fique por dentro das novidades</p>
+                    </div>
+                    <form class="row col-12 text-center">
+                        <div class="col-auto">
+                            <label for="email" class="form-label texto-branco">Email</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 

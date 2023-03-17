@@ -3,10 +3,10 @@
     --azul_logo:rgb(35 97 146);
 }
 
-.navegacao {
+.fundo-azul {
     background-color: var(--azul_logo);
 }
 
-.texto-nav {
+.texto-branco {
     color: var(--branco)!important;
 }
