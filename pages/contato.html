@@ -32,31 +32,46 @@
             </div>
         </header>
         <main>
-            <div class="container mb-2">
-                <div class="">
-                    <h2>Produtos</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h3>Contole de nivel</h3>
+            <div class="container m-1">
+                <form class="row row-cols-1" id="" action="#">
+                    <div class="col">
+                        <label class="form-label" for="fname">Primeiro Nome</label>
                     </div>
-                    <div class="col-5">
-                        <img src="/img/img_nivel.jpeg" alt="" class="img-thumbnail" width="300" height="400">
+                    <div class="col">
+                        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Seu nome..">
                     </div>
-                    <div class="col-5">
-                        <h4>Modelo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ipsam.</p>
-                        <h4>Descrição</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint deserunt cupiditate
-                            earum asperiores ducimus laudantium, consequatur veritatis doloribus perferendis.</p>
-                        <h4>Especificações Técnicas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae repudiandae, velit
-                            perferendis sequi natus amet ratione. Dignissimos debitis sapiente pariatur!</p>
-                        <h4>Dimensões</h4>
-                    </div>
-                </div>
-            </div>
 
+                    <div class="col">
+                        <label class="form-label" for="lname">Sobrenome</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" id="lname" name="lastname"
+                            placeholder="Seu sobrenome..">
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="fname">Telefone</label>
+                    </div>
+                    <div class="col">
+                        <input id="tel1" class="form-control" type="tel" id="phone" name="telefone"
+                            placeholder="Telefone para contato">
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="fname">E-mail</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" id="mailForm1" type="text" name="email" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="col">
+                        <label class="form-label" for="subject">Assunto</label>
+                    </div>
+                    <div class="col">
+                        <textarea class="form-text col-12" id="subject" name="subject" placeholder="Escreva algo.." rows="6"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
         </main>
         <footer class="fundo-azul">
             <div class="row text-center">
