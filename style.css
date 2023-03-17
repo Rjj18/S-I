@@ -2,3 +2,11 @@
     --branco: white;
     --azul_logo:rgb(35 97 146);
 }
+
+.navegacao {
+    background-color: var(--azul_logo);
+}
+
+.texto-nav {
+    color: var(--branco)!important;
+}
